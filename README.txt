@@ -1,23 +1,15 @@
-Proyecto: Generador de Animaciones para bordes de cuerpos en base a Transformada
-	de Fourier
-Autor: Oscar Mejia
+Project: Interface to create GIF animation based on Fourier Series.
+Author: Oscar Mejia
 
-Objetivo: Realizar animaciones  (GIF) para figuras o siluetas
+Aim: Generate animations of borders using Fourier Series and setting the colors.
 
-Pasos: 
-	1. Abrir ejecutable
-	2. Verificar que existe una carpeta llamada : Fotogramas 
-	3. Importar Imagen
-	4. Rellenar espacio de colores
-		Nota: Por defecto, se genera la siguiente configuracion:
-			- Color Background:
-			- Color bordes(lineas): Multicolor
-			- Color Flechas: Blanco
-	5. Generar animacion (esto puede tomar un tiempo)
-	6. La animacion final sera mostrada en la interfaz y guardada como :"movie.gif"
+Steps:
+	1. Execute the  file .py
+	2. Import file
+	3. Modify the colors to use
+	4. Generate the GIF
+	5. Verify the GIF called: 'movie.gif'
 
-Recomendaciones:
-	
-	1. Usar imagenes donde los bordes sean muy claros y contrastados
-	2. Evitar imagenes en las que contornos no logicos esten muy cercanos
-	
+Suggestion:
+	1. Use images where the borders are clear and defined
+	2. Avoid images where the borders may be misunderstood 
